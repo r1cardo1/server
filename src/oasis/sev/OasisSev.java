@@ -5,6 +5,8 @@
  */
 package oasis.sev;
 
+import theadServer.EchoServer;
+
 /**
  *
  * @author Ricardo Marcano
@@ -13,7 +15,8 @@ public class OasisSev {
 
     
     public static void main(String[] args) {
-        new server().run();
+        new Server().run();
+        new EchoServer().run();
     }
     
 }
